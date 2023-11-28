@@ -24,6 +24,10 @@ header{
     font-size: 50px;
     text-decoration: none;
     color: white;
+    transition: all 0.4s ease-in-out;
+}
+.name:hover{
+    scale: 85%;
 }
 .menu-button{
     position: relative;
@@ -36,6 +40,10 @@ header{
     width: 42px;
     height: 42px;
     cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.menu-button:hover{
+    scale: 115%;
 }
 .menu-button.pushed .butt{
     position: absolute;
@@ -87,7 +95,8 @@ main{
 }
 .menu li{
     list-style-type: none;
-    width: 100%;
+    width: 120%;
+    transition: all 0.4s ease-in-out;
 }
 .menu li a{
     display: block;
@@ -98,9 +107,10 @@ main{
 }
 .menu li:hover{
     background: rgb(69, 69, 204);
-    transition: all 0.3s linear;
+    transform: translateX(-12%);
 }
 .opened{
     transform: translateX(0%);
-    transition: all 0.4s linear;
+    transition: all 0.5s linear;
 }
+/* hover effects(menu-button and menu) */
