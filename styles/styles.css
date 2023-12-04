@@ -72,6 +72,10 @@ main{
     height: 100%;
     display: flex;
     justify-content: flex-end;
+    background-image: url("../images/punpun.png");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .menu{
     position: fixed;
@@ -114,3 +118,9 @@ main{
     transition: all 0.5s linear;
 }
 /* hover effects(menu-button and menu) */
+#punpun{
+    display: block;
+    position: relative;
+    right: 760px;
+    scale: 50%;
+}

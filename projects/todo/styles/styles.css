@@ -101,10 +101,30 @@ main{
     transition: all 0.2s linear;
     cursor: pointer;
 }
+.calculator-button{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background: none;
+    border-radius: 15%;
+    position: absolute;
+    top: 125px;
+    left: 255px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
 .todo-button:hover{
     scale: 90%;
 }
+.calculator-button:hover{
+    scale: 90%;
+}
 .todo-url{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.calculator-url{
     display: block;
     width: 100%;
     height: 100%;
@@ -136,4 +156,3 @@ main{
     transform: translateX(0%);
     transition: all 0.5s linear;
 }
-/* hover effects(menu-button and menu) */
