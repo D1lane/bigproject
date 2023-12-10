@@ -7,7 +7,7 @@ main{
     align-items: center;
     width: 100%;
 }
-.todo-block{
+.todo-block-list{
     min-width: 600px;
     height: auto;
     border: 1px black solid;
@@ -23,21 +23,33 @@ main{
     justify-content: center;
     margin: 15px 0 15px 0;
 }
-.todo-block > div{
+.todo-block{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid black;
     padding: 0 20px 0 20px;
 }
-.todo-block > div > p{
+.todo-block-list > div > p{
     font-size: 19px;
 }
-.todo-block > div > div{
+.todo-block-list > div > div{
     display: flex;
     justify-content: center;
     align-self: center;
     gap: 10px;
 }
-.todo-block > div > div > button{
+.addnewtodo{
+    height: 50px;
+}
+#addnewtodobutton{
+    height: auto;
+    width: auto;
+    margin: 10px 0px 10px 10px;
+}
+#addnewtodoinput{
+    margin: 12px 12px 12px 0px;
+    width: 300px;
+}
+#first, #second{
     height: 20px;
 }

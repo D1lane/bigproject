@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles\styles.css">
+    <link rel="stylesheet" href="registration\styles\styles.css">
+    <title>Registration</title>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <a href="index.html" class="name">ITStep</a>
+            <button class="menu-button">
+                <span class="butt"></span>
+                <span class="butt"></span>
+                <span class="butt"></span>
+            </button>
+        </div>
+    </header>
+    <main>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="projects.html">Проекты</a></li>
+                <li><a href="#">Обо мне</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="main-block">
+            <div class="reg-form">
+                <h2>Форма регистрации</h2>
+                <form action="" method="POST">
+                    <div class="form-group">
+                        <label for="">Ф. И. О.</label>
+                        <input type="text" class="form-control" name="fio" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Дата рождения</label>
+                        <input type="date" class="form-control" name="birthday" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Пол</label>
+                        <select name="sex" class="form-control">
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Номер телефона</label>
+                        <input type="text" class="form-control" name="phone-number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="email" class="form-control" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Ссылка на GitHub</label>
+                        <input type="url" class="form-control" name="url-github" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Адрес</label>
+                        <textarea class= "form-control" name="address" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <button class="form-control">Зарегистрировать</button>
+                    </div>
+                </form>
+            </div>
+            <div class="card-list">
+                <div class="card">
+                    <img src="images\avatar.png" alt="">
+                    <div class="card-name">hihihi</div>
+                    <div class="card-age">Возраст: 20 лет</div>
+                    <button>Инфо</button>
+                </div>
+                <div class="card">
+                    <img src="images\avatar.png" alt="">
+                    <div class="card-name">hihihi</div>
+                    <div class="card-age">Возраст: 20 лет</div>
+                    <button>Инфо</button>
+                </div>
+                <div class="card">
+                    <img src="images\avatar.png" alt="">
+                    <div class="card-name">hihihi</div>
+                    <div class="card-age">Возраст: 20 лет</div>
+                    <button>Инфо</button>
+                </div>
+                <div class="card">
+                    <img src="images\avatar.png" alt="">
+                    <div class="card-name">hihihi</div>
+                    <div class="card-age">Возраст: 20 лет</div>
+                    <button>Инфо</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="script\script.js"></script>
+</html>
