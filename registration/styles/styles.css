@@ -5,6 +5,7 @@ main{
 .main-block{
     width: 100%;
     display: flex;
+    position: relative;
 }
 .reg-form{
     padding: 15px 30px 15px 30px;
@@ -77,4 +78,18 @@ main{
 .error{
     color: red;
     font-size: 13px;
+}
+.trash-can{
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgb(55, 55, 190);
+    transition: all linear 0.3s;
+}
+.active{
+    background-color: gray;
 }

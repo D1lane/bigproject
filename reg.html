@@ -51,7 +51,7 @@
                     </div>
                     <div class="form-group">
                         <label for="">Номер телефона</label>
-                        <input type="text" class="form-control" name="phone-number" required value="rstsdf">
+                        <input type="text" class="form-control" name="phone-number" required value="+375123456789">
                         <div class="error" id="phone-error"></div>
                     </div>
                     <div class="form-group">
@@ -73,29 +73,20 @@
                 </form>
             </div>
             <div class="card-list">
-                <div class="card">
+                <div class="card" draggable="true" ondragstart="startDrag(event)">
                     <img src="images\avatar.png" alt="">
                     <div class="card-name">hihihi</div>
                     <div class="card-age">Возраст: 20 лет</div>
                     <button>Инфо</button>
                 </div>
-                <div class="card">
+                <div class="card" draggable="true" ondragstart="startDrag(event)" id="test-card">
                     <img src="images\avatar.png" alt="">
                     <div class="card-name">hihihi</div>
                     <div class="card-age">Возраст: 20 лет</div>
                     <button>Инфо</button>
                 </div>
-                <div class="card">
-                    <img src="images\avatar.png" alt="">
-                    <div class="card-name">hihihi</div>
-                    <div class="card-age">Возраст: 20 лет</div>
-                    <button>Инфо</button>
-                </div>
-                <div class="card">
-                    <img src="images\avatar.png" alt="">
-                    <div class="card-name">hihihi</div>
-                    <div class="card-age">Возраст: 20 лет</div>
-                    <button>Инфо</button>
+                <div class="card-remove" ondragenter="enterDrag(event)" ondragleave="leaveDrag(event)">
+                    <img class = "trash-can" src="images/542724.png">
                 </div>
             </div>
         </div>
