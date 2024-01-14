@@ -35,7 +35,7 @@
                 <form action="" method="POST" onsubmit="return sendForm(event)">
                     <div class="form-group">
                         <label for="">Ф. И. О.</label>
-                        <input type="text" class="form-control" name="fio" required value="Выфв">
+                        <input type="text" class="form-control" name="fio" required value="Валерий">
                         <div class="error" id="name-error"></div>
                     </div>
                     <div class="form-group">
@@ -73,21 +73,21 @@
                 </form>
             </div>
             <div class="card-list">
-                <div class="card" draggable="true" ondragstart="startDrag(event)">
+                <div class="card" draggable="true" ondragstart="startDrag(event)" id="element">
                     <img src="images\avatar.png" alt="">
-                    <div class="card-name">hihihi</div>
+                    <div class="card-name">h</div>
                     <div class="card-age">Возраст: 20 лет</div>
                     <button>Инфо</button>
                 </div>
                 <div class="card" draggable="true" ondragstart="startDrag(event)" id="test-card">
                     <img src="images\avatar.png" alt="">
-                    <div class="card-name">hihihi</div>
+                    <div class="card-name">h</div>
                     <div class="card-age">Возраст: 20 лет</div>
                     <button>Инфо</button>
                 </div>
-                <div class="card-remove" ondragenter="enterDrag(event)" ondragleave="leaveDrag(event)">
-                    <img class = "trash-can" src="images/542724.png">
-                </div>
+            </div>
+            <div class="card-remove" ondragenter="enterDrag(event)" ondragleave="leaveDrag(event)">
+                <img class = "trash-can" src="images/542724.png">
             </div>
         </div>
     </main>
